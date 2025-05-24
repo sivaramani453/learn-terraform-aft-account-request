@@ -1,9 +1,9 @@
-module "sandbox" {
+module "infranonprod" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
     AccountEmail              = "infranonprod@proton.me"
-    AccountName               = "infranonprod"
+    AccountName               = "infra-nonprod"
     ManagedOrganizationalUnit = "Learn AFT"
     SSOUserEmail              = "infranonprod@proton.me"
     SSOUserFirstName          = "infranonprod"

@@ -4,7 +4,7 @@ module "infranonprod" {
   control_tower_parameters = {
     AccountEmail              = "infranonprod@proton.me"
     AccountName               = "infra-nonprod"
-    ManagedOrganizationalUnit = "Learn AFT"
+    ManagedOrganizationalUnit = "infra"
     SSOUserEmail              = "infranonprod@proton.me"
     SSOUserFirstName          = "infranonprod"
     SSOUserLastName           = "nonprod"
